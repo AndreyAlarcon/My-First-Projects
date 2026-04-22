@@ -38,7 +38,7 @@ formulario.addEventListener('submit', (evento) => {
     }
 
     if (errores.length > 0) {
-        mensajeAlerta.textContent = errores.join('<br>');
+        mensajeAlerta.textContent = errores.join('\n');
         mensajeAlerta.style.color = 'red';
     } else {
         mensajeAlerta.textContent = 'Formulario enviado correctamente.';
